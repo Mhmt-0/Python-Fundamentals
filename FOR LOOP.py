@@ -1,4 +1,4 @@
-"""
+
 teklerin_toplami = 0
 ciftlerin_toplami = 0
 for i in range(1, 101):
@@ -8,10 +8,10 @@ for i in range(1, 101):
         teklerin_toplami += 1
 
 print(f'Ciftlerin Toplamı: {ciftlerin_toplami}n\Tekelerin Toplamı:{teklerin_toplami}')
-"""
 
 
-"""
+
+
 baslangic = int(input('Baslangic: '))
 bitis = int(input('Bitis: '))
 adim = int(input('Adim: '))
@@ -19,10 +19,10 @@ counter = 1
 for i in  range(baslangic, bitis, adim):
     print(f'{counter}. adımda ==> {i ** 2}')
     counter += 1
-    """
+    
 
 
-"""
+
 sayi = int(input('Sayı Giriniz: '))
 if sayi <= 0:
     print('Sıfır ve negatif sayılar asıl değildir')
@@ -40,16 +40,15 @@ else:
         print(f'{sayi} asaldır..!')
     else:
         print(f'{sayi} asal değildir..!')
-"""
 
 
-"""
+
+        
 edge = int(input('Kenar Uzunluğu Giriniz: '))
 for i in range(0, edge):
     for i in range(0, edge):
         print('*', end='')
     print(" ")
-"""
 
 
 
